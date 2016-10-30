@@ -35,7 +35,7 @@
 	$message->set_fromName("Stefan Mischook");
 	$message->set_subject("Hello World from the Zender PHP Library!");
 	$message->set_body("&lt;b&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/b&gt;");
-	$message->set_isBodyHtml("false");
+	$message->set_isBodyHtml("true");
 	$message->sendMail();
 ?&gt;
 </pre></div>
