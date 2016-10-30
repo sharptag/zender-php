@@ -5,7 +5,7 @@
  <body>
 <?php include("zender-php.php"); ?>
 <?php 
-	$message = new ZenderMessage('YOUR_ZENDER_API_KEY');
+    $message = new ZenderMessage('YOUR_ZENDER_API_KEY');
     $message->set_from("from@example.com");
     $message->set_recipient("to@example.com");
     $message->set_fromName("Stefan Mischook");
